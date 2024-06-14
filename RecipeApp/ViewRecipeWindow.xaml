@@ -1,0 +1,11 @@
+﻿<Window x:Class="RecipeApp.ViewRecipesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="View Recipes" Height="450" Width="800">
+    <Grid  Background="#FFE00BB1">
+        <ListBox x:Name="RecipesListBox" Width="200" Height="400" Margin="5"
+                 SelectionChanged="RecipesListBox_SelectionChanged" />
+
+        <TextBlock x:Name="RecipeDetailsTextBlock" TextWrapping="Wrap" Margin="220,5,5,5" />
+    </Grid>
+</Window>
